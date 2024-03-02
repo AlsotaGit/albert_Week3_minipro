@@ -89,7 +89,7 @@ img {
 	padding: 0px;
 }
 
-.btn {
+.btn_banner {
 	position: relative;
 	top: 2rem;
 	color: white;
@@ -98,4 +98,18 @@ img {
 
 .footer {
 
+}
+
+
+
+
+
+
+.mid_banner_resume{
+	color: whitesmoke;
+}
+
+
+.mid_resume {
+	min-height: 1300px;
 }
