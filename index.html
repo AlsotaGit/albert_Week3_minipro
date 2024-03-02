@@ -10,45 +10,50 @@
 	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
 
-	<style type="text/css">
-		
-	</style>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Madimi+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+
 </head>
 <body>
-	<div class="container-fluid">
+	<div class="container-fluid main_container">
 
 		<div class="background_img">
 			<div class="img_trans">
 				
-				<div class="row">
-					<div class="col-m d-flex justify-content-between">
-						<ul class="nav nav-underline">
+				<div class="row fixed-top">
+					<div class="col-8 d-flex justify-content-between">
+						<ul class="nav nav-underline gap-5">
 							<li class="nav-item">
-								<a class="nav-link active" aria-current="page" href="#">Active</a>
+								<a class="nav-link active" aria-current="page" href="#">Home</a>
 							</li>
 
 							<li class="nav-item">
-								<a class="nav-link" href="#">Link</a>
+								<a class="nav-link" href="#">About</a>
 							</li>
 
 							<li class="nav-item">
-								<a class="nav-link" href="#">Link</a>
+								<a class="nav-link" href="#">Resume</a>
 							</li>
 
 							<li class="nav-item">
-								<a class="nav-link disabled" aria-disabled="true">Disabled</a>
+								<a class="nav-link" href="#">Portfoilio</a>
 							</li>
 						</ul>
 
-						<p>08095232846</p>
+						<div class="col-4"><p>08095232846</p></div>
 					</div>
 				</div>
 
 
-				<div class="row ">
-					<div class="col-md-4 align-middle">
-						<p class="display-4 text-white align-middle">Albert</p>
-						<p class="display-2 text-white"><strong>Soetan</strong></p>
+				<div class="row mid_banner">
+					<div class="col-md-4 profile_name">
+						<p class="display-4 poppins-thin">Albert</p>
+						<p class="display-2 poppins-bold"><strong>Soetan</strong></p>
+						<p class="poppins-light sd_a">Software Developer & Architect</p>
+						<button type="button" class="btn btn-outline-light btn-lg">Resume</button>
+						<button type="button" class="btn btn-outline-light btn-lg port">Portfolio</button>
 					</div>
 				</div>
 
@@ -56,15 +61,20 @@
 				<div class="row"></div>
 
 
+				<div class="row transp sticky-bottom">
+					<div class="col-md-3 p-4">
+						<a href="" class="m-3"><img src="images/icons8-instagram.svg" style="width: 40px;"></a>
+						<a href="" class="m-3"><img src="images/icons8-whatsapp.svg" style="width: 40px;"></a>
+						<a href="" class="m-3"><img src="images/icons8-twitter.svg" style="width: 40px;"></a>
+						<a href="" class="m-3"><img src="images/icons8-facebook.svg" style="width: 40px;"></a>
+					</div>
+				</div>
+
+
 			</div>
 		</div>
 
-		<div class="row">
-			<div class="col-m footer">
-				<img src="images/facebook11">
-			</div>
-		</div>
-
+		
 
 	</div>
 </body>

@@ -4,25 +4,52 @@
 	border: 1px solid;
 }
 
+.poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  position: relative;
+  top: 1.5rem;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  position: relative;
+  bottom: 2rem;
+}
+
 .container-fluid {
 	margin: 0px;
 	padding: 0px;
 	box-sizing: border-box;
 }
 .img_trans {
-	background-color: rgba(0, 0, 0, 0.4);
+	background-color: rgba(0, 0, 0, 0.6);
 	height: 100%;
 }
 .nav {
 	left: 5%;
-	font-size: 1.2em;
+	font-size: 1.5em;
 	position: relative;
+	top: 5%;
+
 }
 
 .nav-link {
 	color: white;
 	font-weight: bold;
-	
+}
+
+.nav-link:hover {
+	color: orange;
 }
 
 img {
@@ -35,15 +62,38 @@ img {
 	width:100%;
 	border:none;
 	border-color:transparent;
-	height:1080px;
 }
 
 .transp {
-
+	background-color: none;
+	min-height: 100px;
 }
 
 .mid_banner {
-	vertical-align: middle;
+	min-height: 1300px;
+	align-items: center;
+	color: whitesmoke;
+}
+
+.profile_name {
+	position: absolute;
+	left: 5%;
+}
+
+.sd_a {
+	font-size: 1.4em;
+}
+
+.display-4, .display-2 {
+	font-size: 6em;
+	padding: 0px;
+}
+
+.btn {
+	position: relative;
+	top: 2rem;
+	color: white;
+	position: relative;
 }
 
 .footer {
