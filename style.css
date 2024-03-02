@@ -1,0 +1,51 @@
+
+
+* {
+	border: 1px solid;
+}
+
+.container-fluid {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+.img_trans {
+	background-color: rgba(0, 0, 0, 0.4);
+	height: 100%;
+}
+.nav {
+	left: 5%;
+	font-size: 1.2em;
+	position: relative;
+}
+
+.nav-link {
+	color: white;
+	font-weight: bold;
+	
+}
+
+img {
+	width: 100%;
+}
+
+.background_img {
+	background-image:url('images/vecteezy_room-s-interior4.jpg');
+	background-size: cover;
+	width:100%;
+	border:none;
+	border-color:transparent;
+	height:1080px;
+}
+
+.transp {
+
+}
+
+.mid_banner {
+	vertical-align: middle;
+}
+
+.footer {
+
+}
