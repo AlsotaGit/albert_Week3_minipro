@@ -5,6 +5,10 @@
 	text-decoration: none !important;
 }
 
+.about_me {
+	font-size: 2px;
+}
+
 .poppins-thin {
   font-family: "Poppins", sans-serif;
   font-weight: 100;
@@ -37,6 +41,12 @@
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-style: italic;
+}
+
+.poppins-extralight {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
 }
 
 .container-fluid {
@@ -162,4 +172,30 @@ img {
 
 .slide_img {
 	color: white;
+}
+
+
+
+.mid_about {
+	position: absolute;
+	top: 12%;
+}
+
+.about_me {
+	font-size: 1.2rem;
+	font-weight: lighter;
+}
+
+.conai_about {
+	min-height: 1300px;
+}
+
+.about_p {
+	color: orange;
+	font-weight: bold;
+	text-align: center;
+}
+
+.about_span {
+	font-weight: normal;
 }
