@@ -55,7 +55,7 @@
 	box-sizing: border-box;
 }
 .img_trans {
-	background-color: rgba(0, 0, 0, 0.6);
+	background-color: rgba(0, 0, 0, 0.7);
 	height: 100%;
 }
 .nav {
@@ -80,7 +80,23 @@ img {
 }
 
 .background_img {
-	background-image:url('images/vecteezy_room-s-interior4.jpg');
+	background-image:url('images/pxfuel.jpg');
+	background-size: cover;
+	width:100%;
+	border:none;
+	border-color:transparent;
+}
+
+.background_img2 {
+	background-image:url('images/room-s-interior2.jpg');
+	background-size: cover;
+	width:100%;
+	border:none;
+	border-color:transparent;
+}
+
+.background_img3 {
+	background-image:url('images/vecteez.jpg');
 	background-size: cover;
 	width:100%;
 	border:none;
@@ -104,11 +120,11 @@ img {
 }
 
 .sd_a {
-	font-size: 1.4em;
+	font-size: 2vw;
 }
 
 .display-4, .display-2 {
-	font-size: 6em;
+	font-size: 5vw;
 	padding: 0px;
 }
 
@@ -116,7 +132,6 @@ img {
 	position: relative;
 	top: 2rem;
 	color: white;
-	position: relative;
 }
 
 .footer {
@@ -127,15 +142,33 @@ img {
 
 
 
-
-.mid_banner_resume{
-	color: whitesmoke;
-}
+/*RESUME*/
 
 
-.mid_resume {
+.resume_mid {
 	min-height: 1300px;
+	padding: 5%;
 }
+
+.resume_mid_sec {
+	color: whitesmoke;
+	padding: 2%;
+}
+
+.skill_p {
+	font-weight: bold;
+	font-size: 3rem;
+}
+
+.skill_span {
+	font-weight: lighter;
+	font-size: 2.5rem;
+}
+
+
+
+/*PORTFOLIO*/
+
 
 .mid_portfolio {
 	min-height: 1300px;
@@ -150,6 +183,7 @@ img {
 
 .mid_banner_port{
 	color: whitesmoke;
+	font-size: 3vw;
 }
 
 .mid_banner_port:hover {
@@ -182,7 +216,7 @@ img {
 }
 
 .about_me {
-	font-size: 1.2rem;
+	font-size: 1.3rem;
 	font-weight: lighter;
 }
 
@@ -197,5 +231,5 @@ img {
 }
 
 .about_span {
-	font-weight: normal;
+	font-weight: light;
 }
